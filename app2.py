@@ -123,7 +123,7 @@ if user_input := st.chat_input("Tell us your budget, preferred car model, or mil
             st.image(car_image_url, caption=f"{car_model}", use_column_width=True)
 
         # ----------------------------
-        # 🔗 生成 Carfax & CarMax 购买链接
+        # 🔗 Generate Carfax & CarMax purchase link
         # ----------------------------
         carfax_link = f"[View on Carfax](https://www.carfax.com/Used-{car_model.replace(' ', '-')})"
         carmax_link = f"[View on CarMax](https://www.carmax.com/cars/{car_model.replace(' ', '-').lower()})"
